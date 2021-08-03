@@ -1,0 +1,22 @@
+---
+rhasspy::sentences:
+  GetTime:
+    - what time is it
+    - tell me the time
+rhasspy::slots:
+  'colors':
+    folder: hass
+    source: 'puppet:///modules/rhasspy/slots/hass/colors'
+  'days':
+    folder: rhasspy
+    source: 'puppet:///modules/rhasspy/slots/rhasspy/days'
+  'months':
+    folder: rhasspy
+    source: 'puppet:///modules/rhasspy/slots/rhasspy/months'
+rhasspy::slot_programs:
+  'entities':
+    folder: hass
+    source: 'puppet:///modules/rhasspy/slot_programs/hass/entities'
+  'number':
+    folder: rhasspy
+    source: 'puppet:///modules/rhasspy/slot_programs/rhasspy/number'

@@ -1,0 +1,50 @@
+{
+  "name": "cheasles-rhasspy",
+  "version": "1.0.0",
+  "author": "cheasles",
+  "summary": "A Puppet module to configure Rhasspy",
+  "license": "Apache-2.0",
+  "source": "https://github.com/cheasles/puppet-rhasspy.git",
+  "issues_url": "https://github.com/cheasles/puppet-rhasspy/issues",
+  "dependencies": [
+    {
+      "name": "mmckinst/hash2stuff",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "pk/systemd",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs/concat",
+      "version_requirement": ">= 7.0.0"
+    },
+    {
+      "name": "puppetlabs/vcsrepo",
+      "version_requirement": ">= 5.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "18.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.21.0 < 8.0.0"
+    }
+  ],
+  "pdk-version": "2.1.0",
+  "template-url": "pdk-default#2.1.0",
+  "template-ref": "tags/2.1.0-0-ga675ea5"
+}

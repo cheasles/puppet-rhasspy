@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+    concat: https://github.com/puppetlabs/puppetlabs-concat.git
+    hash2stuff: https://github.com/mmckinst/puppet-hash2stuff.git
+    stdlib: https://github.com/puppetlabs/puppetlabs-stdlib.git
+    systemd: https://github.com/DesideriusE/puppet-systemd.git
+    vcsrepo: https://github.com/puppetlabs/puppetlabs-vcsrepo.git
